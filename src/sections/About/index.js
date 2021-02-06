@@ -35,6 +35,26 @@ const About = () => {
           living.
         </span>
       </p>
+      <div className="info">
+        <span className="info__blog">
+          To follow my journey visit my blog
+          <a
+            href="https://samshum90.github.io/gatsby_blog/"
+            className="info__blog-link"
+          >
+            here
+          </a>
+        </span>
+        <span className="info__github">
+          Find the repo for this site
+          <a
+            href="https://github.com/samshum90/Portfolio_website_react"
+            className="info__github-link"
+          >
+            here
+          </a>
+        </span>
+      </div>
     </article>
   );
 };
